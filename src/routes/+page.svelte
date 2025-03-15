@@ -39,7 +39,7 @@
     <!-- Project Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {#each projects as project}
-        <div class="project-card relative border-3 border-[#DE541E] rounded-4xl overflow-hidden aspect-7/3">
+        <div class="project-card relative border-4 border-[#DE541E] rounded-[3vw] overflow-hidden aspect-7/3">
           <!-- Main project card links to external service -->
           <a href={project.externalUrl} target="_blank" rel="noopener noreferrer" class="block h-full">
             <img 
@@ -50,15 +50,13 @@
           </a>
           
           <!-- Info icon links to local project readme -->
-          <div class="absolute bottom-2 left-2">
+          <div class="absolute bottom-4 left-4">
             <a 
               href="/project/{project.slug}" 
-              class="block bg-white p-1.5 rounded-full shadow-md hover:scale-110 transition-transform"
+              class="block bg-white p-1.5 rounded-xl shadow-md hover:scale-110 transition-transform"
               on:click={handleInfoClick}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+              <span class="text-[#DE541E]">?</span>
             </a>
           </div>
         </div>
@@ -68,7 +66,8 @@
     <!-- Footer -->
     <footer class="mt-16 text-center">
       <p class="mb-1 text-2xl">Hi! Say hi!</p>
-      <a href="mailto:hello@example.com" class="text-blue-600 text-xl hover:underline">hello@example.com</a>
+      <a href="mailto:aryansrivastava096@gmail.com" class="text-[#DE541E] text-xl hover:underline">aryansrivastava096@gmail.com</a>
+      <p class="mt-2 text-lg">© 2025 chilipowder.fun.</p>
     </footer>
   </main>
 </div>
