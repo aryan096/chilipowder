@@ -40,7 +40,7 @@
     <!-- Project Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {#each projects as project}
-        <div class="project-card relative border-4 border-[#393E41] rounded-[3vw] overflow-hidden aspect-7/3">
+        <div class="project-card relative border-4 border-[#393E41] rounded-[3vw] overflow-hidden aspect-6/3">
           <!-- Main project card links to external service -->
           <a href={project.externalUrl} target="_blank" rel="noopener noreferrer" class="block h-full">
             <img 

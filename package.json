@@ -38,6 +38,6 @@
 	},
 	"dependencies": {
 		"@fontsource-variable/space-grotesk": "^5.2.6",
-		"@fontsource/akaya-telivigala": "^5.2.5",
+		"@fontsource/akaya-telivigala": "^5.2.5"
 	}
 }
