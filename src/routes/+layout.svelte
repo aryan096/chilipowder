@@ -1,7 +1,7 @@
 <script lang="ts">
-// Supports weights 100-400
-	import '@fontsource-variable/playwrite-us-modern';
-	import '../app.css';
+	import '@fontsource/akaya-telivigala';
+	// Supports weights 300-700
+	import '@fontsource-variable/space-grotesk';	import '../app.css';
 	let { children } = $props();
 </script>
 

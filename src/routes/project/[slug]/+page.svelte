@@ -51,3 +51,10 @@
     </div>
   </main>
 </div>
+
+<style> 
+  
+  main { 
+    font-family: 'Space Grotesk Variable', sans-serif;
+  }
+  </style>

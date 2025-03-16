@@ -34,7 +34,7 @@
         class="w-full transform scale-68 rotate-270"
         />
       </div>
-      <h1 class="pt-8 text-4xl text-[#393E41]">chilipowder.fun</h1>
+      <h1 class="logo-text pt-4 text-4xl text-[#393E41]">chilipowder.fun</h1>
     </header>
   
     <!-- Project Grid -->
@@ -74,7 +74,11 @@
 </div>
 
 <style> 
-main {
-  font-family: 'Playwrite US Modern Variable', cursive;
-    }
+.logo-text {
+  font-family: 'Akaya Telivigala', system-ui;
+}
+
+p { 
+  font-family: 'Space Grotesk Variable', sans-serif;
+}
 </style>

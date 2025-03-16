@@ -37,10 +37,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@fontsource-variable/fraunces": "^5.2.5",
-		"@fontsource-variable/playwrite-id": "^5.2.5",
-		"@fontsource-variable/playwrite-us-modern": "^5.2.5",
-		"@fontsource/sunshiney": "^5.2.5",
-		"@fontsource/zeyada": "^5.2.5"
+		"@fontsource-variable/space-grotesk": "^5.2.6",
+		"@fontsource/akaya-telivigala": "^5.2.5",
 	}
 }
