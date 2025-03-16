@@ -7,7 +7,7 @@
         id: 1, 
         slug: 'chainrxn',
         name: 'Chain Rxn', 
-        coverImage: '/projects/placeholder.png',
+        coverImage: '/projects/chainrxn.png',
         externalUrl: 'https://chainrxn.chilipowder.fun' // External service URL
       }
     ]);
@@ -22,7 +22,6 @@
   <title>chilipowder.fun</title>
 </svelte:head>
 
-<!-- Added bg-red-100 to the body -->
 <div class="bg-[#f8e1d2] min-h-screen w-full flex flex-col">
   <main class="max-w-6xl mx-auto px-4 py-8 w-full flex-grow">
     <!-- Header -->
@@ -46,7 +45,7 @@
             <img 
               src={project.coverImage} 
               alt={`${project.name}`}
-              class="w-full h-full object-cover text-2xl p-4"
+              class="w-full h-full object-cover text-2xl"
             />
           </a>
           
@@ -56,7 +55,7 @@
               href="/project/{project.slug}" 
               on:click={handleInfoClick}
             >
-              <span class="text-[#6f5049] hover:text-3xl transition-transform text-2xl">🤔</span>
+                <span class="text-[#6f5049] hover:text-3xl transition-transform text-2xl bg-white rounded-full p-1" aria-label="Project Info">??</span>
             </a>
           </div>
         </div>
